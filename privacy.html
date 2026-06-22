@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Datenschutz</title>
+
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #111c33;
+      --text: #e5e7eb;
+      --muted: #a1a1aa;
+      --accent: #60a5fa;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #1e293b, var(--bg));
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      color: var(--muted);
+      margin-top: 8px;
+    }
+
+    .card {
+      background: rgba(17, 28, 51, 0.85);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 25px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    section {
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 6px;
+    }
+
+    p {
+      line-height: 1.6;
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(255,255,255,0.08);
+      margin: 15px 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.7rem;
+      }
+    }
+	
+	
+	.back-button {
+	  position: absolute;
+	  top: 20px;
+	  left: 20px;
+
+	  padding: 10px 14px;
+	  border-radius: 10px;
+
+	  color: var(--text);
+	  text-decoration: none;
+
+	  background: rgba(96, 165, 250, 0.12);
+	  border: 1px solid rgba(96, 165, 250, 0.25);
+
+	  transition: 0.2s ease;
+	}
+
+	.back-button:hover {
+	  background: rgba(96, 165, 250, 0.25);
+	  transform: translateY(-2px);
+	}
+  </style>
+</head>
+
+<body>
+  <a class="back-button" href="index.html">← Zurück zur Startseite</a>
+  <div class="container">
+
+    <header>
+      <h1>Datenschutzerklärung</h1>
+      <p>Informationen gemäß DSGVO</p>
+    </header>
+
+    <div class="card">
+
+      <section>
+        <h2>1. Verantwortlicher</h2>
+        <p class="muted">
+          Verantwortlich für die Datenverarbeitung in dieser App ist:<br/>
+            
+            Vladimir Kurnov<br/>
+            St.-Anna-Str. 121<br/>
+            54295 Trier<br/>
+            DEUTSCHLAND<br/>
+            <a href="mailto:vkurnov@yahoo.com">vkurnov@yahoo.com</a><br/>
+        </p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section>
+        <h2>2. Allgemeines zur Datenverarbeitung</h2>
+        <p>
+          Der Schutz Ihrer persönlichen Daten ist mir wichtig. Diese App<br/>
+		  verarbeitet personenbezogene Daten nur im Rahmen der gesetzlichen<br/> 
+		  Vorschriften.<br/>
+        </p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section>
+        <h2>3. Welche Daten werden in der App verarbeitet?</h2>
+        <p class="muted">
+          Bei der Nutzung der App können insbesondere folgende Daten verarbeitet werden:<br/> 
+            
+            - vom Nutzer eingegebene Texte<br/> 
+            - Spracheinstellungen und App-Einstellungen<br/> 
+            - technisch erforderliche Verbindungsdaten beim Laden von Sprach- oder<br/> 
+			  Übersetzungsfunktionen<br/> 
+            - ggf. Diagnose- oder Fehlerdaten des Betriebssystems bzw. des Play Stores<br/> 
+        </p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section>
+        <h2>4. Zweck der Verarbeitung</h2>
+        <p class="muted">
+          Die Verarbeitung erfolgt, um die Funktionen der App bereitzustellen,<br/>
+		  insbesondere:<br/>
+            
+            - Vorlesen von Texten (Text-to-Speech)<br/>
+            - Übersetzung von eingegebenen Texten<br/>
+            - Speichern von App-Einstellungen<br/>
+            - Verbesserung der Stabilität und Funktionalität der App<br/>
+        </p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section>
+        <h2>5. Lokale Speicherung auf dem Gerät</h2>
+        <p class="muted">
+          Bestimmte Einstellungen (z. B. Sprach- oder Wiedergabeeinstellungen)<br/>
+		  können lokal auf dem Gerät gespeichert werden.<br/>
+          Diese Daten verbleiben grundsätzlich auf dem Endgerät<br/> 
+		  und dienen der Funktionalität der App.<br/>
+        </p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section>
+        <h2>6. Übersetzungs- und Sprachfunktionen</h2>
+        <p class="muted">
+          Die App verwendet Funktionen zur Sprachverarbeitung und Übersetzung.<br/>
+          Je nach technischer Umsetzung können dabei Daten lokal auf dem Gerät<br/>
+		  oder über Dienste/Komponenten von Drittanbietern verarbeitet werden.<br/>
+            
+            Verwendete Technologien / Drittanbieter (je nach finalem Setup):<br/>
+            - Google ML Kit (z. B. Sprachidentifikation / Übersetzung)<br/>
+            - Android Text-to-Speech / System-Sprachdienste des Geräts<br/>
+            
+            Bitte beachten Sie, dass je nach Gerätekonfiguration und<br/>
+			Android-Version Daten durch Systemdienste des Geräts verarbeitet<br/> 
+			werden können.<br/>
+            
+        </p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section>
+        <h2>7. Berechtigungen</h2>
+        <p class="muted">
+          Die App fordert nur die Berechtigungen an, die für die jeweilige<br/>
+		  Funktion erforderlich sind.<br/>
+          Falls bestimmte Funktionen zusätzliche Berechtigungen benötigen,<br/>
+		  werden diese nur zweckgebunden verwendet.<br/>
+            
+        </p>
+      </section>
+	  
+	  <div class="divider"></div>
+
+      <section>
+        <h2>8. Werbung</h2>
+        <p class="muted">
+          Sofern in der App Werbung angezeigt wird, können Werbedienstleister<br/>
+		  technische Daten verarbeiten, z. B.:<br/>
+            
+            - Geräteinformationen<br/>
+            - Werbe-ID<br/>
+            - Interaktionsdaten<br/>
+            - IP-Adresse (ggf. technisch verarbeitet)<br/>
+            
+            Dies dient der Anzeige und Optimierung von Werbung.<br/>
+            
+            Verwendeter Werbedienst (falls genutzt):<br/>
+            - Google AdMob<br/>
+            
+        </p>
+      </section>
+	  
+	  <div class="divider"></div>
+
+      <section>
+        <h2>9. Rechtsgrundlagen</h2>
+        <p class="muted">
+          Die Verarbeitung erfolgt je nach Art der Funktion auf Grundlage von:<br/>
+            
+            - Art. 6 Abs. 1 lit. b DSGVO (Bereitstellung der App-Funktionen)<br/>
+            - Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an Sicherheit,<br/> 
+			  Stabilität und technischer Bereitstellung)<br/>
+            - ggf. Art. 6 Abs. 1 lit. a DSGVO (Einwilligung, soweit erforderlich)<br/>
+            
+        </p>
+      </section>
+	  
+	  <div class="divider"></div>
+
+      <section>
+        <h2>10. Speicherdauer</h2>
+        <p class="muted">
+          Personenbezogene Daten werden nur so lange gespeichert, wie dies<br/> 
+		  für die genannten Zwecke erforderlich ist.<br/>
+          Lokal gespeicherte Einstellungen verbleiben auf dem Gerät, bis<br/> 
+		  sie durch den Nutzer gelöscht oder die App deinstalliert wird.<br/>
+            
+        </p>
+      </section>
+	  
+	  <div class="divider"></div>
+
+      <section>
+        <h2>11. Ihre Rechte</h2>
+        <p class="muted">
+          Sie haben im Rahmen der DSGVO insbesondere folgende Rechte:<br/>
+            
+            - Auskunft<br/>
+            - Berichtigung<br/>
+            - Löschung<br/>
+            - Einschränkung der Verarbeitung<br/>
+            - Widerspruch<br/>
+            - Datenübertragbarkeit<br/>
+            
+          Bei Fragen können Sie sich jederzeit an den oben genannten<br/>
+		  Verantwortlichen wenden.<br/>
+
+            
+        </p>
+      </section>
+	  
+	  <div class="divider"></div>
+
+      <section>
+        <h2>12. Änderungen dieser Datenschutzerklärung</h2>
+        <p class="muted">
+          Ich behalte mir vor, diese Datenschutzerklärung anzupassen,<br/>
+		  wenn dies aufgrund technischer oder rechtlicher Änderungen<br/> 
+		  erforderlich wird.<br/>
+		  
+        </p>
+      </section>
+
+    </div>
+
+    <footer>
+      © 2026 SententiaLoop
+    </footer>
+
+  </div>
+</body>
+</html>
